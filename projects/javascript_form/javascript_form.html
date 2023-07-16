@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="javascript_form.css">
+    
+</head>
+
+<body>
+
+
+    <center>
+        <h1>Test JavaScript Form Validation</h1>
+    </center>
+
+    <div class="form">
+        <table>
+            <form name="project" id="project" action="#" class="main_container">
+                <div>
+                    <tr>
+                        <td> Name
+                            <span class="red">*</span>
+
+                        </td>
+                        <td>
+                            <div class="input_elements">
+
+                                <input type="text" name="first_name" id="name"> <span >enter
+                                    name</span>
+                            </div>
+                        </td>
+                </div>
+                </tr>
+                <!-- <h3 id="enter_name"></h3> -->
+                <tr>
+                    <td>Address
+                       
+                    </td>
+                    <td>
+                        <div class="input_elements">
+                            <input type="text" name="address" id="address"><span class="error_msg">enter name</span>
+                        </div>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+                    <td>zip code
+
+                        <span class="red">*</span>
+                    </td>
+                    <td>
+                        <div class="input_elements">
+
+                            <input type="text" name="zip_code" id="zip_code"><span class="error_msg">enter name</span>
+                    </td>
+    </div>
+    </tr>
+    <tr>
+        <td>Phone
+            <span class="red">*</span>
+        </td>
+        <td>
+            <div class="input_elements">
+                <input type="text" name="phone" id="phone"><span class="error_msg">enter name</span>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>country
+            <span class="red">*</span>
+        </td>
+        <td>
+            <div class="input_elements">
+
+                <select id="select_country">
+                    <option value="Please_select">Please select...</option>
+                    <option value="United States of America">United States America</option>
+                </select> <span class="error_msg">enter name</span>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Gender
+            <span class="red">*</span>
+        </td>
+        <td>
+            <div class="input_elements">
+                <input type="radio" name="gender"  value="male"  id="male">Male
+                <input type="radio" name="gender" value="female" id="female">Female
+                 <span class="error_msg">enter name</span>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td> Preferences
+            <span class="red">*</span>
+
+        </td>
+        <td>
+            <div class="input_elements">
+
+                <input type="checkbox" name="preference" value="Red" id="Red">Red
+                <input type="checkbox" name="preference" value="Green" id="Green">Green
+                <input type="checkbox" name="preference" value="Blue" id="Blue">Blue
+                <span class="error_msg">enter name</span>
+            </div>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Email<span class="red">*</span>
+        </td>
+        <td>
+            <div class="input_elements">
+
+                <input type="email" name="email" id="email"><span>enter name</span>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            password
+            <span class="red">*</span>
+        </td>
+        <td>
+            <div class="input_elements">
+                <input type="password" minlength="6" maxlength="8" name="password" id="password"><span class="error_msg">enter name</span>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Verify password
+            <span class="red">*</span>
+        </td>
+        <td>
+            <div class="input_elements">
+
+                <input type="password"   minlength="6" maxlength="8" name="verify" id="verify"><span class="error_msg">enter name</span>
+            </div>
+
+
+
+        </td>
+    </tr>
+
+    </div>
+    <tr>
+        <td> </td>
+        <td>
+            <button >submit</button>
+            <button type="reset">Clear</button>
+        </td>
+    </tr>
+
+    </form>
+    </table>
+
+<script src="./form.js"></script>
+</body>
+
+</html>

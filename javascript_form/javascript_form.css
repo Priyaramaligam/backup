@@ -1,0 +1,14 @@
+.red {
+    color: red;
+}
+table td{
+    padding:20px;
+}
+.input_elements span{
+    display: none;
+
+}
+.error span{
+    display: block;
+    color: red;
+}

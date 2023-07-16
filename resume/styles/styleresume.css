@@ -1,0 +1,42 @@
+.full{
+    width:75%;
+
+    
+    margin: auto;
+    display: flex;
+    border: 2px solid black;
+    /* margin-right: 100px; */
+
+}
+.left{
+    display: flex;
+
+    /* float:left; */
+    flex-direction: column ;
+    background-color:darkmagenta;
+  
+
+}
+.right{
+    width: 78%;
+    float:right;
+    height: 97.9%;
+    background-color:plum;
+    padding: 10px;
+    
+
+}
+.left1{
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column ;
+
+}
+.sign{
+    text-align:right;
+    margin-right:70px;
+}
+.sign1{
+    text-align: right;
+    margin: 278px;
+}

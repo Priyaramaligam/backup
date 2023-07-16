@@ -1,0 +1,218 @@
+.header {
+	display: flex;
+	flex-direction: row;	
+
+}
+.choice {
+	display:  flex;
+	position: absolute;
+	top: 13px;
+	margin-left:  230px;
+	justify-content: space-between;
+	width:55%;
+	
+}
+.right-c{
+	display: flex;
+	justify-content: space-between;
+    margin-LEFT: 8%;
+}
+.choice > p {
+	width: auto;
+	margin-left: 45px;
+	font-size: 12px;
+	
+}
+.logo {
+	width: 10px;
+	height: 10px;
+
+}
+.logo1
+{
+	width:10px;
+}
+.profile {
+	display: flex;
+	position: relative;
+	bottom:2px;
+	left:960px;
+	
+	width:100px;
+	
+}
+.name
+{
+	position: relative;
+	bottom:6px;
+	left:960px;
+	width:50px;
+}
+.logout {
+	padding-bottom: 12px;
+	margin-left: 1015px;
+	margin-top: 10px;	
+
+}
+.lib{
+	font-size: 10px;
+	padding-top: 2px;
+	padding-left: 10px;
+
+}
+.center{
+	margin-left: 20px;
+	
+}
+
+
+.image, .image0 {
+	display: flex;
+	margin-left: 50px;
+}
+.image1{
+	margin-left: 10px;
+	
+	border: 2px solid #f7f7f7;
+	width: 22%;
+	box-sizing: border-box;
+	align-items: center;
+	padding-top: 40px;
+}
+.image1:hover
+{
+ border-color:lawngreen
+	
+
+}
+.image1 p {
+	text-align: center;
+}
+
+.image1 img {
+	padding-left: 35%;
+	padding-right: 35% ;
+}
+
+
+
+.image0{
+	margin-top: 10px;
+}
+
+.mid-container{
+	background-color:      #fbf9f9; 
+
+	width:  100%;
+}
+.mid-container img{
+   width: 100%;
+}
+
+.imgc{
+	width: 1200px;
+	height: 250px;
+	background-color: #d1ecbf;
+}
+
+.section2{
+	position:  relative;
+	top: -32px;
+	background-color: white;
+	width: 95%;
+	left:  25px;
+	height: 700px;
+	
+
+	/*margin-left: auto;-->
+	margin-right: auto;*/
+
+}
+.contain{
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.buttonc{
+	position: absolute;
+	right: 90px;
+	top:930px;
+}
+
+.button-c #back-btn button{
+	background-color: rgb(253, 253, 253);
+	
+	color: black;
+	
+}
+#back-btn{
+	padding: 10px;
+    border: none;
+}
+#p-button{
+	border: none;
+	padding:10px;
+	background-color: green;
+	color: white;
+}
+.widget {
+	position: absolute;
+	width: 215px;
+	border: 3px solid #f7f7f7;
+	height: 30px;
+	padding: 7px;
+	top:350px;
+	right: 100px;
+	margin-right: 0;
+
+
+}
+.contact{
+	display: flex;
+	border: 1px solid black;
+	width: 225px;
+}
+
+.contact > div{
+	border-right: 2px solid #c1c1c1;
+	font-size: 10px;
+	background-color: white;
+	padding: 5px;
+}
+.contact img{
+	width:  7px;
+	height:  6px;
+}
+
+.movecontact{
+	position:  absolute;
+	top: 80px;
+	right:50px;
+}
+.down1{
+	display:flex;
+	position: absolute;
+	justify-content: space-between;
+	width:50%;
+	margin-left: 20%;
+	font-size: 16px;
+	top:990px;
+}
+.down3{
+	margin-left: 20%;
+	position: absolute;
+	left:150px;
+	top:1040px;
+	padding-bottom: 10px;
+}
+
+/* .ruler{
+	position: absolute;
+	bottom: 0;
+	right: 95px;
+	width: 85%;
+	margin: 5px;
+} */
+.background{
+	background-color:#d8d8d8;;
+}
